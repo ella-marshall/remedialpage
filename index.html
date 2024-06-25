@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Delivery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container-fluid bg-danger">
+        <button data-bs-toggle="modal" data-bs-target="#myModal" class="btn btn-success">Recommendations</button>
+
+        <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="h2 text-danger bg-warning">Easy Ways to Travel</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Salta and Jujuy border each other, so be sure to combine them during your visit. The easiest way is to fly into one airport and out of the other. This will ensure that you spend the least amount of time in the car.</p>
+                    </div>
+                    <div class="modal-footer">
+                        Salta and Jujuy await!
+                        <button class="btn btn-outline-success" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-danger text-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Salta y Jujuy
+                    <img src="images/bridge.png" alt="Bridge" width="50" height="24" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="myMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/visitsalta/?hl=en">Salta Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/visitjujuy/">Jujuy Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container m-1">
+        <div class="container bg-body">
+            <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                    <h1 class="me-md-5 ms-1g-2">Salta y Jujuy</h1>
+                    <p class="me-3">Located in northwestern Argentina, Salta and Jujuy boast desert landscapes that closely mirror those of the American Southwest. Visit these provinces for an unforgettable experience!</p>
+                    <p class="text-end mt-1">See examples of Salta and Jujuy's landscapes below.</p>
+                </div>
+            </div>
+
+            
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-10">
+                    <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/canyon.png" class="d-block w-100" alt="Canyon">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="small">Photo taken by me in Salta</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/salinas.png" class="d-block w-100" alt="Salinas">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="small">Photo taken by me in Jujuy</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-12">
+                    <div class="row justify-content-between align-content-between">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-10 mb-3">
+                            <a href="images/colors.png" data-lightbox="image1"><img class="img-fluid rounded img-thumbnail" src="images/colors.png" alt="Colors"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-10 mb-3">
+                            <a href="images/mirador.png" data-lightbox="image2"><img class="img-fluid rounded img-thumbnail" src="images/mirador.png" alt="Mirador"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-10 mb-3">
+                            <a href="images/mountain.png" data-lightbox="image3"><img class="img-fluid rounded img-thumbnail" src="images/mountain.png" alt="Mountain"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-10 mb-3">
+                            <a href="images/path.png" data-lightbox="image4"><img class="img-fluid rounded img-thumbnail" src="images/path.png" alt="Path"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-10 mb-3">
+                            <a href="images/rocks.png" data-lightbox="image5"><img class="img-fluid rounded img-thumbnail" src="images/rocks.png" alt="Rocks"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-10 mb-3">
+                            <a href="images/waterfall.png" data-lightbox="image6"><img class="img-fluid rounded img-thumbnail" src="images/waterfall.png" alt="Waterfall"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5" id="form">
+                <div class="col-md-6">
+                    <form action="code.php" method="post">
+                        <div class="mb-3">
+                            <label for="username" class="form-label">Enter your name here to join our email list</label>
+                            <input type="text" class="form-control" id="username" placeholder="John Doe" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="userEmail" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="userEmail" placeholder="Email address" multiple required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+</body>
+</html>

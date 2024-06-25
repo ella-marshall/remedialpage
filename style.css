@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.row { height: 100%}
+
+.navbar { border: 2px solid black;  background-color: red;}
+
+@media screen and (max-width: 768 px) { div.modal {display: none;}}
+
+.navbar { font-family: "Montserrat", sans-serif; font-size: 5 em}
+
+#bootstrap-font-override h1 { font-family: "Merriweather", serif; font-size: 6 em}
+
+body { font-family: "Merriweather", serif; font-size: 6 em}
+
+
+header.container-fluid {
+
+    height: 45vh;
+    
+    }
+    
+    section.container-fluid {
+    
+        height: 80vh;
+    }
+    
+    .row { height: 100%;}
+    
+    div { height: 25vh; }
+    
+    @media(max-width:768px){
+    
+        section.container-fluid{
+            height: auto;
+
+        }
+    
+        
+    }
+
+    .container, .container-fluid{
+        padding: 10px;
+    }
+     
+   .footer {
+    background-color: black;
+    height:100px;
+   }
+
